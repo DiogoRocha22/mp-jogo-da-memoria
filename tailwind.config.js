@@ -18,7 +18,11 @@ export default {
       fontFamily: {
         'normal': ['Roboto', 'sans-serif'],
         'title': ['Kavoon', 'serif'],
-      }
+      },
+      backgroundImage: {
+        'shenlong': 'url(public/images/shen.png)',
+        'kame-house': 'url(/images/kame.jpeg)'
+      },
     },
   },
   plugins: [],

@@ -1,4 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
+import { Start } from './Views/Start';
+import { Game } from './Views/Game';
 
 function App() {
   return (
@@ -6,11 +8,11 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={(
-            <h1 className="text-[3.5rem] text-white font-title drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-              Memory Game
-            </h1>
-          )}
+          element= {<Start/>}
+        />
+        <Route
+          path='/game'
+          element= {<Game/>}
         />
       </Routes>
     </div>
